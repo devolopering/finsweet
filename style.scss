@@ -44,6 +44,11 @@ ul {
 a {
   text-decoration: none;
   line-height: 1.75;
+  transition-duration: 200ms;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 img {
